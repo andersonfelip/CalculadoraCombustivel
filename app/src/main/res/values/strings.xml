@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CalculadoraCombustivel</string>
+    <string name="title_activity_search_view">SearchViewActivity</string>
+    <string name="title_activity_seekbar">Seekbar</string>
+    <string name="title_activity_seekbar_view">SeekbarViewActivity</string>
+    <string name="title_activity_ratingbar">RatingbarActivity</string>
+    <string name="title_activity_progressbar_view">ProgressbarViewActivity</string>
 </resources>

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Gasolina"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="33dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/alcoolId"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Alcool"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="131dp" />
+        tools:layout_editor_absoluteY="91dp" />
 
     <EditText
         android:id="@+id/editTextGasolina"
@@ -29,7 +29,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="52dp" />
+        tools:layout_editor_absoluteY="35dp" />
 
     <EditText
         android:id="@+id/editTextAlcool"
@@ -38,22 +38,22 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="163dp" />
+        tools:layout_editor_absoluteY="110dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="333dp" />
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="194dp" />
 
     <TextView
         android:id="@+id/textResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="429dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="434dp" />
 
 </android.support.constraint.ConstraintLayout>

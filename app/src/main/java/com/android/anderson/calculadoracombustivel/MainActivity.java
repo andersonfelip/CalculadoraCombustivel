@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     result = "Gasolina";
                 }
-
+                resultado.setText(result);
             }
         });
 

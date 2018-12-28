@@ -16,6 +16,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SearchViewActivity"
+            android:label="@string/title_activity_search_view"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Seekbar"
+            android:label="@string/title_activity_seekbar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeekbarViewActivity"
+            android:label="@string/title_activity_seekbar_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RatingbarActivity"
+            android:label="@string/title_activity_ratingbar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProgressbarViewActivity"
+            android:label="@string/title_activity_progressbar_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
