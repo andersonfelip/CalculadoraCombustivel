@@ -5,4 +5,7 @@
     <string name="title_activity_seekbar_view">SeekbarViewActivity</string>
     <string name="title_activity_ratingbar">RatingbarActivity</string>
     <string name="title_activity_progressbar_view">ProgressbarViewActivity</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

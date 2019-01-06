@@ -1,10 +1,12 @@
-package com.android.anderson.calculadoracombustivel;
+package com.android.anderson.widgets;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.android.anderson.calculadoracombustivel.R;
 
 public class SeekbarViewActivity extends AppCompatActivity {
 

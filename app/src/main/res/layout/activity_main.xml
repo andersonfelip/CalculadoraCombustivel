@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
 
-    <TextView
-        android:id="@+id/gasolinaId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gasolina"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/alcoolId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alcool"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="91dp" />
-
-    <EditText
-        android:id="@+id/editTextGasolina"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="35dp" />
-
-    <EditText
-        android:id="@+id/editTextAlcool"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="110dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonDataPicker"
+        android:layout_width="301dp"
         android:layout_height="wrap_content"
-        android:text="Calcular"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="194dp" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="139dp"
+        android:text="DataPicker" />
 
-    <TextView
-        android:id="@+id/textResultado"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/buttonImageView"
+        android:layout_width="301dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="434dp" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="198dp"
+        android:text="ImageView" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/buttonEditView"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="253dp"
+        android:text="EditView" />
+
+    <Button
+        android:id="@+id/buttonListView"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        android:text="ListView" />
+
+    <Button
+        android:id="@+id/buttonWebView"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:text="WebView" />
+</RelativeLayout>

@@ -1,4 +1,4 @@
-package com.android.anderson.calculadoracombustivel;
+package com.android.anderson.widgets;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,6 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.android.anderson.calculadoracombustivel.R;
 
 public class ProgressbarViewActivity extends AppCompatActivity {
 
