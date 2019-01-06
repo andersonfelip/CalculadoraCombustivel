@@ -33,10 +33,6 @@
             android:name="com.android.anderson.widgets.ListViewActivity"
             android:label="@string/title_activity_list_view"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.android.anderson.Native.ShareActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.android.anderson.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,7 +41,11 @@
             </intent-filter>
         </activity>
         <activity android:name="com.android.anderson.widgets.WebViewActivity" />
-        <activity android:name="com.android.anderson.widgets.DatepickerActivity"></activity>
+        <activity android:name="com.android.anderson.widgets.DatepickerActivity" />
+        <activity android:name="com.android.anderson.widgets.ImageViewActivity" />
+        <activity android:name="com.android.anderson.Native.LigacaoActivity" />
+        <activity android:name="com.android.anderson.Native.CameraActivity" />
+        <activity android:name="com.android.anderson.Native.ShareActivity"></activity>
     </application>
 
 </manifest>
