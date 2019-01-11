@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.anderson.calculadoracombustivel">
-
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -45,7 +46,8 @@
         <activity android:name="com.android.anderson.widgets.ImageViewActivity" />
         <activity android:name="com.android.anderson.Native.LigacaoActivity" />
         <activity android:name="com.android.anderson.Native.CameraActivity" />
-        <activity android:name="com.android.anderson.Native.ShareActivity"></activity>
+        <activity android:name="com.android.anderson.Native.ShareActivity" />
+        <activity android:name="com.android.anderson.Native.MainContatoActivity"></activity>
     </application>
 
 </manifest>
